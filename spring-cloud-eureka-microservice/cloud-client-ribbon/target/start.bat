@@ -1,0 +1,1 @@
+java -jar cloud-client-ribbon-1.0-SNAPSHOT.jar

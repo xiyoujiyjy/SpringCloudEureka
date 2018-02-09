@@ -1,0 +1,1 @@
+java -jar cloud-config-repository-server-1.0-SNAPSHOT.jar

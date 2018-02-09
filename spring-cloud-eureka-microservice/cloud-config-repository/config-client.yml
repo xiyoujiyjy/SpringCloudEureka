@@ -1,0 +1,7 @@
+#随意设置的一个参数
+myblog:
+  name: yjy
+  url: https://github.com/xiyoujiyjy/cloud-config-repository
+  location: BeiJing
+config-client:
+  name: test

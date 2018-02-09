@@ -1,0 +1,1 @@
+java -jar cloud-discovery-netflix-eureka-1.0-SNAPSHOT.jar

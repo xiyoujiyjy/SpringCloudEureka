@@ -1,0 +1,1 @@
+java -jar cloud-service-ribbon-lb1-1.0-SNAPSHOT.jar
