@@ -13258,9 +13258,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "D:\\git\\SpringCloudEureka\\Service\\OrderServiceOne\\OrderServiceOne.csproj",
       "projectName": "OrderServiceOne",
@@ -13282,7 +13279,10 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://192.168.15.161:58518/nuget": {},
         "http://api.nuget.org/v3/index.json": {},
-        "https://packages.nuget.org/v1/FeedService.svc/": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.cnblogs.com/v3/index.json": {},
+        "https://packages.nuget.org/v1/FeedService.svc/": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -13298,14 +13298,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Pivotal.Discovery.Client": {
-            "target": "Package",
-            "version": "1.1.0"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
@@ -13314,6 +13306,14 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Pivotal.Discovery.Client": {
+            "target": "Package",
+            "version": "1.1.0"
           }
         },
         "imports": [
