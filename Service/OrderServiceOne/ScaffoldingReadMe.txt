@@ -41,3 +41,12 @@ However you may still need to do make changes to your project.
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+
+
+
+熔断器
+http://steeltoe.io/docs/steeltoe-circuitbreaker/#1-2-1-add-nuget-references
+
+Steeltoe.CircuitBreaker.Hystrix.MetricsEvents
+Steeltoe.CircuitBreaker.Hystrix
+

@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Pivotal.Discovery.Client;
+using Steeltoe.CircuitBreaker.Hystrix;
+using OrderServiceOne.Service;
 
 namespace OrderServiceOne
 {
@@ -25,6 +27,9 @@ namespace OrderServiceOne
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDiscoveryClient(Configuration);
+            // Add Hystrix command FortuneService to Hystrix group "FortuneService"
+            services.AddHystrixCommand<OrderServiceCommand>("OrderService", Configuration);
+
             services.AddMvc();
         }
 
@@ -37,7 +42,13 @@ namespace OrderServiceOne
             }
 
             app.UseMvc();
+
+
             app.UseDiscoveryClient();
+
+          
+
+
         }
     }
 }
