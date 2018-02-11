@@ -24,6 +24,7 @@ namespace OrderServiceOne.Controllers
             return _orderService.Execute();
 
         }
+        [Route("GetOrderInfoAsync")]
         public async Task<string> GetOrderInfoAsync()
         {
             return await _orderService.ExecuteAsync();

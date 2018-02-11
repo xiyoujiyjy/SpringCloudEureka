@@ -1,0 +1,11 @@
+D:\git\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.deps.json
+D:\git\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.runtimeconfig.json
+D:\git\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.runtimeconfig.dev.json
+D:\git\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.dll
+D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.csprojResolveAssemblyReference.cache
+D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.csproj.CoreCompileInputs.cache
+D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.AssemblyInfoInputs.cache
+D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.AssemblyInfo.cs
+D:\git\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.pdb
+D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.dll
+D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.pdb

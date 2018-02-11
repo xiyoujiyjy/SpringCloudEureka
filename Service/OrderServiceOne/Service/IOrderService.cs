@@ -8,6 +8,5 @@ namespace OrderServiceOne.Service
     public interface IOrderService
     {
         Task<string> GetOrderInfoAsync();
-
     }
 }
