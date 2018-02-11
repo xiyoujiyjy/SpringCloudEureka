@@ -9,3 +9,14 @@ D:\git\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderSe
 D:\git\SpringCloudEureka\Service\OrderServiceOne\bin\Debug\netcoreapp2.0\OrderServiceOne.pdb
 D:\git\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderServiceOne.dll
 D:\git\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderServiceOne.pdb
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\bin\Debug\netcoreapp2.0\OrderServiceOne.deps.json
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\bin\Debug\netcoreapp2.0\OrderServiceOne.runtimeconfig.json
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\bin\Debug\netcoreapp2.0\OrderServiceOne.runtimeconfig.dev.json
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\bin\Debug\netcoreapp2.0\OrderServiceOne.dll
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\bin\Debug\netcoreapp2.0\OrderServiceOne.pdb
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderServiceOne.csprojResolveAssemblyReference.cache
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderServiceOne.csproj.CoreCompileInputs.cache
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderServiceOne.AssemblyInfoInputs.cache
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderServiceOne.AssemblyInfo.cs
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderServiceOne.dll
+E:\Repos\SpringCloudEureka\Service\OrderServiceOne\obj\Debug\netcoreapp2.0\OrderServiceOne.pdb

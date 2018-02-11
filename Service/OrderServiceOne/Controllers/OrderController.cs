@@ -17,6 +17,10 @@ namespace OrderServiceOne.Controllers
         {
             _orderService = orderServiceCommand;
         }
+        /// <summary>
+        /// http://localhost:8080/order-service-netcore/api/order/GetOrderInfo
+        /// </summary>
+        /// <returns></returns>
         [Route("GetOrderInfo")]
         [HttpGet]
         public string GetOrderInfo()

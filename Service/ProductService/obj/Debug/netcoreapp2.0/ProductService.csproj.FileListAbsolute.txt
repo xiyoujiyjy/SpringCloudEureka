@@ -9,3 +9,14 @@ D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductS
 D:\git\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.pdb
 D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.dll
 D:\git\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.pdb
+E:\Repos\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.deps.json
+E:\Repos\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.runtimeconfig.json
+E:\Repos\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.runtimeconfig.dev.json
+E:\Repos\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.dll
+E:\Repos\SpringCloudEureka\Service\ProductService\bin\Debug\netcoreapp2.0\ProductService.pdb
+E:\Repos\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.csprojResolveAssemblyReference.cache
+E:\Repos\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.csproj.CoreCompileInputs.cache
+E:\Repos\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.AssemblyInfoInputs.cache
+E:\Repos\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.AssemblyInfo.cs
+E:\Repos\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.dll
+E:\Repos\SpringCloudEureka\Service\ProductService\obj\Debug\netcoreapp2.0\ProductService.pdb

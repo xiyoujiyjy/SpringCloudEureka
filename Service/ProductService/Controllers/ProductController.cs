@@ -15,7 +15,7 @@ namespace ProductService.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "p1", "p2" };
+            return new string[] { "p1", "p2","8102" };
         }
 
         // GET: api/Product/5

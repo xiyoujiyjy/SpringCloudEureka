@@ -14,7 +14,11 @@ namespace OrderServiceOne.Service
     {
         DiscoveryHttpClientHandler _handler;
         ILogger<OrderService> _logger;
-        private const string product_service_url = "https://product-service-netcore/api/product";
+        /// <summary>
+        /// 内部调用
+        /// http://localhost:8080/product-service-netcore/api/product
+        /// </summary>
+        private const string product_service_url = "http://product-service-netcore/api/product";
 
         public OrderService(IDiscoveryClient client, ILoggerFactory logFactory)
         {
