@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-api-gateway-zuul/cloud-api-gateway-zuul.iml" filepath="$PROJECT_DIR$/cloud-api-gateway-zuul/cloud-api-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-client-ribbon/cloud-client-ribbon.iml" filepath="$PROJECT_DIR$/cloud-client-ribbon/cloud-client-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-repository-client/cloud-config-repository-client.iml" filepath="$PROJECT_DIR$/cloud-config-repository-client/cloud-config-repository-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-repository-server/cloud-config-repository-server.iml" filepath="$PROJECT_DIR$/cloud-config-repository-server/cloud-config-repository-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-discovery-netflix-eureka/cloud-discovery-netflix-eureka.iml" filepath="$PROJECT_DIR$/cloud-discovery-netflix-eureka/cloud-discovery-netflix-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-ribbon-lb1/cloud-service-ribbon-lb1.iml" filepath="$PROJECT_DIR$/cloud-service-ribbon-lb1/cloud-service-ribbon-lb1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-ribbon-lb2/cloud-service-ribbon-lb2.iml" filepath="$PROJECT_DIR$/cloud-service-ribbon-lb2/cloud-service-ribbon-lb2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-eureka-microservice.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-eureka-microservice.iml" />
+    </modules>
+  </component>
+</project>

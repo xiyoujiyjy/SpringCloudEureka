@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-gateway-zuul" />
+        <module name="cloud-client-ribbon" />
+        <module name="cloud-config-repository-client" />
+        <module name="cloud-config-repository-server" />
+        <module name="cloud-discovery-netflix-eureka" />
+        <module name="cloud-service-ribbon-lb1" />
+        <module name="cloud-service-ribbon-lb2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-api-gateway-zuul" target="1.6" />
+      <module name="cloud-client-ribbon" target="1.6" />
+      <module name="cloud-config-repository-client" target="1.6" />
+      <module name="cloud-config-repository-server" target="1.6" />
+      <module name="cloud-discovery-netflix-eureka" target="1.6" />
+      <module name="cloud-service-ribbon-lb1" target="1.6" />
+      <module name="cloud-service-ribbon-lb2" target="1.6" />
+      <module name="spring-cloud-eureka-microservice" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

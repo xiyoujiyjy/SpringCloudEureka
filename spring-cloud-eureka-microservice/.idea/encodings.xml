@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-api-gateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-client-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-repository-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-repository-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-discovery-netflix-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service-ribbon-lb1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service-ribbon-lb2" charset="UTF-8" />
+  </component>
+</project>

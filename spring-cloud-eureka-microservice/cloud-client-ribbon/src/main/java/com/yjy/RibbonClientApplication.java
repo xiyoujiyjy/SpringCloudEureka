@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @Description :启动类，示范负载均衡服务器
+ * @Description :启动类，示范负载均衡服务器(添加断路器功能）
  */
 @SpringBootApplication
 @EnableDiscoveryClient
