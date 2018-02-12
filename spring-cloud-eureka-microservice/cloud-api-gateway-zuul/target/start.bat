@@ -1,1 +1,0 @@
-java -jar cloud-api-gateway-zuul-1.0-SNAPSHOT.jar

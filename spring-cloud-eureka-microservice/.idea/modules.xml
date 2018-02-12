@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-service-ribbon-lb2/cloud-service-ribbon-lb2.iml" filepath="$PROJECT_DIR$/cloud-service-ribbon-lb2/cloud-service-ribbon-lb2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" filepath="$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-peer2/eureka-server-peer2.iml" filepath="$PROJECT_DIR$/eureka-server-peer2/eureka-server-peer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-ribbon-consumer/eureka-server-ribbon-consumer.iml" filepath="$PROJECT_DIR$/eureka-server-ribbon-consumer/eureka-server-ribbon-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-service-peer/eureka-server-service-peer.iml" filepath="$PROJECT_DIR$/eureka-server-service-peer/eureka-server-service-peer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-eureka-microservice.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-eureka-microservice.iml" />
     </modules>
