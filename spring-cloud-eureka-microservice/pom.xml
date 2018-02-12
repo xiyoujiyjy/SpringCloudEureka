@@ -21,6 +21,8 @@
         <module>cloud-service-ribbon-lb2</module>
         <module>cloud-client-ribbon</module>
         <module>cloud-api-gateway-zuul</module>
+        <module>eureka-server-peer1</module>
+        <module>eureka-server-peer2</module>
     </modules>
     <!--依赖管理-->
     <dependencies>

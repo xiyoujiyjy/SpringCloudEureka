@@ -9,5 +9,8 @@
     <file url="file://$PROJECT_DIR$/cloud-discovery-netflix-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-service-ribbon-lb1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-service-ribbon-lb2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-peer1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-peer2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-service-peer" charset="UTF-8" />
   </component>
 </project>

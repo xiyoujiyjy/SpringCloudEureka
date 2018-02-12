@@ -1,0 +1,1 @@
+java -jar eureka-server-peer2-1.0-SNAPSHOT.jar
