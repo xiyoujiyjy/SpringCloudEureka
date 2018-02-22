@@ -13,6 +13,8 @@
         <module name="cloud-discovery-netflix-eureka" />
         <module name="cloud-service-ribbon-lb1" />
         <module name="cloud-service-ribbon-lb2" />
+        <module name="eureka-server-consumer-ribbon1" />
+        <module name="eureka-server-consumer-ribbon2" />
         <module name="eureka-server-peer1" />
         <module name="eureka-server-peer2" />
         <module name="eureka-server-ribbon-consumer" />
@@ -27,6 +29,8 @@
       <module name="cloud-discovery-netflix-eureka" target="1.6" />
       <module name="cloud-service-ribbon-lb1" target="1.6" />
       <module name="cloud-service-ribbon-lb2" target="1.6" />
+      <module name="eureka-server-consumer-ribbon1" target="1.8" />
+      <module name="eureka-server-consumer-ribbon2" target="1.8" />
       <module name="eureka-server-peer1" target="1.6" />
       <module name="eureka-server-peer2" target="1.6" />
       <module name="eureka-server-ribbon-consumer" target="1.8" />

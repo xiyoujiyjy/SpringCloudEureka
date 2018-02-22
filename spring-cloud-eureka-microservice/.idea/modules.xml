@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-discovery-netflix-eureka/cloud-discovery-netflix-eureka.iml" filepath="$PROJECT_DIR$/cloud-discovery-netflix-eureka/cloud-discovery-netflix-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-ribbon-lb1/cloud-service-ribbon-lb1.iml" filepath="$PROJECT_DIR$/cloud-service-ribbon-lb1/cloud-service-ribbon-lb1.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-ribbon-lb2/cloud-service-ribbon-lb2.iml" filepath="$PROJECT_DIR$/cloud-service-ribbon-lb2/cloud-service-ribbon-lb2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-consumer-ribbon1/eureka-server-consumer-ribbon1.iml" filepath="$PROJECT_DIR$/eureka-server-consumer-ribbon1/eureka-server-consumer-ribbon1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-consumer-ribbon2/eureka-server-consumer-ribbon2.iml" filepath="$PROJECT_DIR$/eureka-server-consumer-ribbon2/eureka-server-consumer-ribbon2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" filepath="$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-peer2/eureka-server-peer2.iml" filepath="$PROJECT_DIR$/eureka-server-peer2/eureka-server-peer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-ribbon-consumer/eureka-server-ribbon-consumer.iml" filepath="$PROJECT_DIR$/eureka-server-ribbon-consumer/eureka-server-ribbon-consumer.iml" />
