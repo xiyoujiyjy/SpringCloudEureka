@@ -18,5 +18,9 @@ public class EurekaServerRibbonConsumerApplication {
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaServerRibbonConsumerApplication.class, args);
+		//服务注册类配置
+		org.springframework.cloud.netflix.eureka.EurekaClientConfigBean clientConfigBean;
+		//服务实例类配置
+		org.springframework.cloud.netflix.eureka.EurekaInstanceConfigBean instanceConfigBean;
 	}
 }
