@@ -36,23 +36,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCommand.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserCommand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="380">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="247">
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +100,8 @@
         <option value="$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UsesrCommand.java" />
         <option value="$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/ConsumerController.java" />
         <option value="$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/User.java" />
-        <option value="$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserCommand.java" />
         <option value="$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserController.java" />
+        <option value="$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserCommand.java" />
       </list>
     </option>
   </component>
@@ -312,12 +314,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519374557856</updated>
-      <workItem from="1519374559725" duration="2673000" />
+      <workItem from="1519374559725" duration="2886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2673000" />
+    <option name="totallyTimeSpent" value="2886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -439,22 +441,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserCommand.java">
+    <entry file="file://$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="247">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserController.java">
+    <entry file="file://$PROJECT_DIR$/consumer-ribbon-hystrix-demo/src/main/java/consumerribbonhystrix/consumerribbonhystrixdemo/UserCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="380">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
           </folding>
         </state>
       </provider>
