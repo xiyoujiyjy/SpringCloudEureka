@@ -3,9 +3,7 @@ package eurekacluster.eurekaserverservicepeer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloController {
@@ -15,7 +13,24 @@ public class HelloController {
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public  String hello() {
         ServiceInstance instance=client.getLocalServiceInstance();
-        return "Hello World 9081"+instance.getPort();
+        return  instance.getPort()+" Hello World ";
+    }
+    @RequestMapping(value = "/hello1",method = RequestMethod.GET)
+    public  String hello(@RequestParam String name) {
+        ServiceInstance instance=client.getLocalServiceInstance();
+        return  instance.getPort()+" Hello World "+name;
     }
 
+    @RequestMapping(value = "/hello2",method = RequestMethod.GET)
+    public  User hello(@RequestHeader String name,@RequestHeader Integer age) {
+        ServiceInstance instance=client.getLocalServiceInstance();
+        User u=  new User(name,age);
+        u.setPort(instance.getPort());
+        return  u;
+    }
+    @RequestMapping(value = "/hello3",method = RequestMethod.POST)
+    public  String hello(@RequestBody User user) {
+        ServiceInstance instance=client.getLocalServiceInstance();
+        return  instance.getPort()+" Hello  "+user.getName()+","+user.getAge();
+    }
 }

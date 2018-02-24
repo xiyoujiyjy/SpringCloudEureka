@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-consumer-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-consoumer-trubine-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-ribbon-hystrix-turbine-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/fegin-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-consumer/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/consumer-ribbon-hystrix-demo/consumer-ribbon-hystrix-demo.iml" filepath="$PROJECT_DIR$/consumer-ribbon-hystrix-demo/consumer-ribbon-hystrix-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-ribbon-hystrix-turbine-amqp/consumer-ribbon-hystrix-turbine-amqp.iml" filepath="$PROJECT_DIR$/consumer-ribbon-hystrix-turbine-amqp/consumer-ribbon-hystrix-turbine-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-consumer/fegin-consumer.iml" filepath="$PROJECT_DIR$/feign-consumer/fegin-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-eureka.iml" filepath="$PROJECT_DIR$/ms-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-consoumer-trubine-amqp/ribbon-consoumer-trubine-amqp.iml" filepath="$PROJECT_DIR$/ribbon-consoumer-trubine-amqp/ribbon-consoumer-trubine-amqp.iml" />

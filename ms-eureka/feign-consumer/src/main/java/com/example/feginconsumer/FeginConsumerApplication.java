@@ -1,16 +1,16 @@
-package com.ms.eureka.server.ribbonconsoumertrubineamqp;
+package com.example.feginconsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.turbine.stream.EnableTurbineStream;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
-@EnableTurbineStream
+@EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class RibbonConsoumerTrubineAmqpApplication {
+public class FeginConsumerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RibbonConsoumerTrubineAmqpApplication.class, args);
+		SpringApplication.run(FeginConsumerApplication.class, args);
 	}
 }
