@@ -1,0 +1,1 @@
+java -jar consumer-ribbon-hystrix-demo-0.0.1-SNAPSHOT.jar

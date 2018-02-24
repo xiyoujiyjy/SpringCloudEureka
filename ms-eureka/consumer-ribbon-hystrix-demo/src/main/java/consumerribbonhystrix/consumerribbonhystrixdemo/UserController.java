@@ -12,7 +12,8 @@ public class UserController {
     RestTemplate restTemplate;
     @RequestMapping(value = "userInfo",method = RequestMethod.GET)
     public  String nameConsumer(){
-       // UserCommand userCommand=new UserCommand(restTemplate,1L);
-      return  "";
+       UserCommand userCommand=new UserCommand(restTemplate,1L);
+        //userCommand.queue().get().getName();
+       return  userCommand.execute().getName();
     }
 }
