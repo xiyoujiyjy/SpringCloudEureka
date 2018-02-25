@@ -17,6 +17,8 @@
     <ignored path="$PROJECT_DIR$/eureka-server-consumer-ribbon1/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server-consumer-ribbon2/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server-service-peer2/target/" />
+    <ignored path="$PROJECT_DIR$/hello-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/feign-consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,22 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-server-service-peer2/src/main/java/com/eureka/server/eurekaserverservicepeer2/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="600">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -107,8 +102,16 @@
         <option value="$PROJECT_DIR$/eureka-server-consumer-ribbon2/src/main/java/com/eureka/server/demo/HelloService.java" />
         <option value="$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/User.java" />
         <option value="$PROJECT_DIR$/eureka-server-service-peer2/src/main/java/com/eureka/server/eurekaserverservicepeer2/User.java" />
-        <option value="$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/HelloController.java" />
         <option value="$PROJECT_DIR$/eureka-server-service-peer2/src/main/java/com/eureka/server/eurekaserverservicepeer2/HelloController.java" />
+        <option value="$PROJECT_DIR$/hello-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-service-peer/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/HelloController.java" />
+        <option value="$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/RefactorHelloController.java" />
+        <option value="$PROJECT_DIR$/feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/com/yjy/feignconsumer/RefactorHelloService.java" />
+        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/com/yjy/feignconsumer/service/RefactorHelloService.java" />
+        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/com/yjy/feignconsumer/HelloService.java" />
+        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/com/yjy/feignconsumer/ConsumerController.java" />
       </list>
     </option>
   </component>
@@ -131,6 +134,31 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -146,7 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,60 +186,25 @@
             <path>
               <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaserverservicepeer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer2" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer2" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -218,16 +212,81 @@
             <path>
               <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer2" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaserverservicepeer2" type="462c0819:PsiDirectoryNode" />
+              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-service-peer2" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yjy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yjy" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yjy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-eureka-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-eureka-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -236,8 +295,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -255,7 +313,7 @@
     <property name="RequestMappingsPanelWidth2" value="15" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -268,11 +326,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuanjy\source\repos\SpringCloudEureka\spring-cloud-eureka-microservice\feign-consumer\src\main\java\com\yjy\feignconsumer" />
+      <recent name="C:\Users\yuanjy\source\repos\SpringCloudEureka\spring-cloud-eureka-microservice\hello-service-api\src\main\java\com\yjy" />
       <recent name="D:\git\SpringCloudEureka\spring-cloud-eureka-microservice\eureka-server-service-peer2" />
       <recent name="D:\git\SpringCloudEureka\spring-cloud-eureka-microservice\eureka-server-service-peer" />
       <recent name="D:\git\SpringCloudEureka\spring-cloud-eureka-microservice\eureka-server-service-peer2\src\main\resources" />
-      <recent name="C:\Users\yuanjy\source\repos\SpringCloudEureka\spring-cloud-eureka-microservice\eureka-server-consumer-ribbon1" />
-      <recent name="C:\Users\yuanjy\source\repos\SpringCloudEureka\spring-cloud-eureka-microservice\eureka-server-consumer-ribbon1\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,6 +455,12 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.GatewayApplication" />
       <module name="cloud-api-gateway-zuul" />
+      <envs />
+    </configuration>
+    <configuration name="HelloServiceApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.demo.HelloServiceApiApplication" />
+      <module name="hello-service-api" />
       <envs />
     </configuration>
     <configuration name="RibbonClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -542,7 +606,7 @@
       <envs />
       <patterns />
     </configuration>
-    <list size="17">
+    <list size="18">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.GatewayApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ServiceOneApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigClientApplication" />
@@ -555,11 +619,12 @@
       <item index="9" class="java.lang.String" itemvalue="Spring Boot.EurekaServerConsumerRibbon1Application" />
       <item index="10" class="java.lang.String" itemvalue="Spring Boot.EurekaServerConsumerRibbon2Application" />
       <item index="11" class="java.lang.String" itemvalue="Spring Boot.EurekaServerServicePeer2Application" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.All in eureka-server-peer1" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication (1)" />
-      <item index="14" class="java.lang.String" itemvalue="JUnit.eurekacluster.eurekaserverservicepeer in eureka-server-service-peer" />
-      <item index="15" class="java.lang.String" itemvalue="JUnit.eurekaserver.eurekaserverribbonconsumer in eureka-server-ribbon-consumer" />
-      <item index="16" class="java.lang.String" itemvalue="JUnit.All in eureka-server-ribbon-consumer" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.HelloServiceApiApplication" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.All in eureka-server-peer1" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication (1)" />
+      <item index="15" class="java.lang.String" itemvalue="JUnit.eurekacluster.eurekaserverservicepeer in eureka-server-service-peer" />
+      <item index="16" class="java.lang.String" itemvalue="JUnit.eurekaserver.eurekaserverribbonconsumer in eureka-server-ribbon-consumer" />
+      <item index="17" class="java.lang.String" itemvalue="JUnit.All in eureka-server-ribbon-consumer" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -600,6 +665,9 @@
       <workItem from="1519459487550" duration="306000" />
       <workItem from="1519459932495" duration="44000" />
       <workItem from="1519460101835" duration="364000" />
+      <workItem from="1519538615511" duration="1199000" />
+      <workItem from="1519548525816" duration="2257000" />
+      <workItem from="1519550858274" duration="589000" />
     </task>
     <servers />
   </component>
@@ -636,10 +704,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55569000" />
+    <option name="totallyTimeSpent" value="59614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -650,26 +718,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5087848" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4375" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" x="345" y="259" width="675" height="209" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4375" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" x="345" y="259" width="675" height="209" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36176935" sideWeight="0.46998537" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3607456" sideWeight="0.46998537" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49121523" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49121523" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14488189" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14488189" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1068814" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
@@ -690,52 +758,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-commons/1.3.2.RELEASE/spring-cloud-commons-1.3.2.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-commons/1.3.2.RELEASE/spring-cloud-commons-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.java" />
-    <entry file="file://$PROJECT_DIR$/eureka-server-peer1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-discovery-netflix-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-microservice.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-ribbon-lb2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/windows端口占用.txt" />
-    <entry file="file://$PROJECT_DIR$/eureka-server-peer1/src/main/java/yjy/com/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server-peer2/src/main/java/yjy/com/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -821,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -842,24 +857,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/start9081.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/start9081.bat" />
     <entry file="file://$PROJECT_DIR$/eureka-server-service-peer2/src/main/java/com/eureka/server/eurekaserverservicepeer2/EurekaServerServicePeer2Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/EurekaServerServicePeerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -975,48 +977,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-consumer-ribbon1/src/main/java/com/eureka/server/demo/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-consumer-ribbon2/src/main/java/com/eureka/server/demo/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-consumer-ribbon1/src/main/java/com/eureka/server/demo/HelloService.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-server-consumer-ribbon2/src/main/java/com/eureka/server/demo/HelloService.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/User.java" />
     <entry file="file://$PROJECT_DIR$/eureka-server-service-peer2/src/main/java/com/eureka/server/eurekaserverservicepeer2/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,19 +994,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer2/src/main/java/com/eureka/server/eurekaserverservicepeer2/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+        <state relative-caret-position="623">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer2/src/main/java/com/eureka/server/eurekaserverservicepeer2/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/hello-service-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="138">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/EurekaServerServicePeerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/yjy/feignconsumer/FeignConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/yjy/feignconsumer/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/yjy/feignconsumer/service/RefactorHelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service-api/src/main/java/com/yjy/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/yjy/feignconsumer/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service-api/src/main/java/com/yjy/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/RefactorHelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-service-peer/src/main/java/eurekacluster/eurekaserverservicepeer/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,12 +1161,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>eureka-server-peer2</last-edited>
+          <last-edited>hello-service-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
