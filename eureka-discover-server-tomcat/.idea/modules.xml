@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-discover-server-tomcat.iml" filepath="$PROJECT_DIR$/eureka-discover-server-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-tomcat/eureka-server-tomcat.iml" filepath="$PROJECT_DIR$/eureka-server-tomcat/eureka-server-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-tomcat-service-product/eureka-tomcat-service-product.iml" filepath="$PROJECT_DIR$/eureka-tomcat-service-product/eureka-tomcat-service-product.iml" />
+    </modules>
+  </component>
+</project>

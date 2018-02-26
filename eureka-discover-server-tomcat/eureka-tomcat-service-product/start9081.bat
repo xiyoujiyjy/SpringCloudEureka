@@ -1,0 +1,1 @@
+java -jar eureka-tomcat-service-product-0.0.1-SNAPSHOT.jar
