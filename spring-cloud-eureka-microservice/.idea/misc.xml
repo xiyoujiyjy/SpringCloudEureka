@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/eureka-server-consumer-ribbon1/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-consumer-ribbon2/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-service-peer2/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-consumer/pom.xml" />
       </list>
     </option>
   </component>

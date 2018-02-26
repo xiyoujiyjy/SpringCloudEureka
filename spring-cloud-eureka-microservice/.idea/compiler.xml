@@ -22,6 +22,8 @@
         <module name="eureka-server-ribbon-consumer" />
         <module name="eureka-server-service-peer" />
         <module name="eureka-server-service-peer2" />
+        <module name="feign-consumer" />
+        <module name="hello-service-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +43,8 @@
       <module name="eureka-server-ribbon-consumer" target="1.8" />
       <module name="eureka-server-service-peer" target="1.8" />
       <module name="eureka-server-service-peer2" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="hello-service-api" target="1.8" />
       <module name="spring-cloud-eureka-microservice" target="1.6" />
     </bytecodeTargetLevel>
   </component>
